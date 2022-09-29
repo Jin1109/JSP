@@ -1,0 +1,43 @@
+body {
+	text-align:center; margin:0 auto; width:100%; 
+}
+footer.class{
+	text-align:center;
+}
+header{
+	text-align:center;
+}
+nav > a{
+	float: center;
+	margin: auto;
+	text-decoration: none;
+}
+nav div{
+	background: green;
+	text-align:right;
+}
+nav idv > a{
+	text-decoration: none;
+	color:black;
+}
+nav div > a:last-child{
+	padding-left:10px;
+}
+aside>a{
+	text-decoration:none; color:balck;
+}
+#wrap > scection > ul > li{
+	list-style-type:none;
+}
+aside{
+	width: 30%; float:left
+}
+section{
+	float: left; width: 70%
+}
+footer{
+	clear:both;
+}
+#wrap{
+	border:1px solid gray; height:50%;
+}

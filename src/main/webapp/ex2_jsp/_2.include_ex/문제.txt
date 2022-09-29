@@ -1,0 +1,16 @@
+1. template.jsp에서 header.jsp와 footer.jsp를 포함합니다.
+
+2. header.jsp에서 로그인을 클릭하면 login.jsp로 연결됩니다.
+
+3. login.jsp에서 id와 비밀번호를 입력한 후 submit 합니다.
+   action ="login"
+
+4. 서블릿 Login에서 아이디를 세션에 저장한 후 
+   template.jsp로 이동합니다.
+
+5. header.jsp의 내용은 아래와 같이 변경됩니다. 
+   
+                                  jsp님이 로그인 되었습니다. (로그아웃)
+
+5. 로그아웃을 클릭하면 logout.jsp에서 
+   '로그아웃 되었습니다.'  대화상자 창이 나타나고 확인을 클릭하면 다시 template.jsp로 이동하도록 응답처리합니다.
